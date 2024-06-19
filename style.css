@@ -41,10 +41,27 @@ li{
     box-sizing: border-box;
     text-align: center;
     width: 25%;
-    font-size: 15px;
+    font-size: 20px;
     border: #fff 2px solid;
-    line-height: 3;
+    line-height: 2;
     color: white;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+ul:hover li {
+	opacity: 0.3;	
+}
+
+ul li:hover {
+	opacity: 1;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 p{
@@ -96,4 +113,16 @@ p{
 .sydney{
     background-color: #666699;
     width: 100%;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
 }
